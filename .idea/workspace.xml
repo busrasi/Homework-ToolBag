@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eca8abf0-3ec4-4fed-b089-0cae6b897165" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/notes.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/router.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/tabBar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/MainPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/notes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/todolist.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
