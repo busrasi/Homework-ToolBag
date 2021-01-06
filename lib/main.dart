@@ -1,18 +1,28 @@
 import 'package:flutter/material.dart';
 
 import 'package:provider/provider.dart';
+import 'MainPage.dart';
+
 //import 'theme_settings.dart';
 
 import 'theme.dart';
+import 'theme_settings.dart';
 
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
+
+
   Widget build(BuildContext context) {
     return ChangeNotifierProvider<ThemeChanger>(
       builder: (_) => ThemeChanger(ThemeData.dark()),
-      child:MaterialAppWithTheme(),
+
+      child:MaterialAppWithTheme(
+
+
+
+      ),
     );
   }
 }
@@ -22,11 +32,17 @@ class MaterialAppWithTheme extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme =Provider.of<ThemeChanger>(context);
     return MaterialApp(
-      home: TabBar(),
-    //  home:ThemeSettings(),
+        routes: <String, WidgetBuilder>{
+        '/MainPage': (BuildContext context) => new MainPage(),
+          '/ThemeSettings': (BuildContext context) => new ThemeSettings(),
+        },
+
+      home: MainPage(),
+      //home:ThemeSettings(),
       theme: theme.getTheme(),
     );
   }
 }
+
 
 
