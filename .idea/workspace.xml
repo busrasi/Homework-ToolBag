@@ -5,13 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eca8abf0-3ec4-4fed-b089-0cae6b897165" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/notes.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/todolist.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/language_settings.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/lang.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Homework-ToolBag.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Homework-ToolBag.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/MainPage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/MainPage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/router.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/theme_settings.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/theme_settings.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/todolist.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/todolist.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -57,22 +68,22 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom" timestamp="1609967100678">
+    <state width="1878" height="289" key="GridCell.Tab.0.bottom" timestamp="1610026665800">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.bottom/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1609967100678" />
-    <state width="1878" height="290" key="GridCell.Tab.0.center" timestamp="1609967100678">
+    <state width="1878" height="289" key="GridCell.Tab.0.bottom/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1610026665800" />
+    <state width="1878" height="289" key="GridCell.Tab.0.center" timestamp="1610026665799">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.center/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1609967100678" />
-    <state width="1878" height="290" key="GridCell.Tab.0.left" timestamp="1609967100677">
+    <state width="1878" height="289" key="GridCell.Tab.0.center/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1610026665799" />
+    <state width="1878" height="289" key="GridCell.Tab.0.left" timestamp="1610026665798">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.left/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1609967100677" />
-    <state width="1878" height="290" key="GridCell.Tab.0.right" timestamp="1609967100678">
+    <state width="1878" height="289" key="GridCell.Tab.0.left/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1610026665798" />
+    <state width="1878" height="289" key="GridCell.Tab.0.right" timestamp="1610026665799">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="290" key="GridCell.Tab.0.right/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1609967100678" />
+    <state width="1878" height="289" key="GridCell.Tab.0.right/0.23.1440.828/1440.23.1920.1057@1440.23.1920.1057" timestamp="1610026665799" />
     <state x="2058" y="173" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1609966117390">
       <screen x="1440" y="23" width="1920" height="1057" />
     </state>

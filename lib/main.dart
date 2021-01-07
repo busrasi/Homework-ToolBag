@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:mp_mytoolbag/todolist.dart';
 
 import 'package:provider/provider.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'MainPage.dart';
 
 //import 'theme_settings.dart';
@@ -35,7 +37,9 @@ class MaterialAppWithTheme extends StatelessWidget {
         routes: <String, WidgetBuilder>{
         '/MainPage': (BuildContext context) => new MainPage(),
           '/ThemeSettings': (BuildContext context) => new ThemeSettings(),
+          '/Todolist': (BuildContext context) => new TodoList(),
         },
+
 
       home: MainPage(),
       //home:ThemeSettings(),

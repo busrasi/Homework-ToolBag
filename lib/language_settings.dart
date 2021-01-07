@@ -1,11 +1,16 @@
 import "theme.dart";
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'MainPage.dart';
 
-class ThemeSettings extends StatelessWidget {
+class LanguageSettings extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     ThemeChanger _themeChanger = Provider.of<ThemeChanger>(context);
+
+
 
     return new Scaffold(
       appBar: AppBar(
