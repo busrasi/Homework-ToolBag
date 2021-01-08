@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mp_mytoolbag/language_settings.dart';
 import 'todolist.dart';
 
 import 'package:provider/provider.dart';
@@ -56,7 +57,8 @@ class MaterialAppWithTheme extends StatelessWidget {
         routes: <String, WidgetBuilder>{
         '/MainPage': (BuildContext context) => new MainPage(),
           '/ThemeSettings': (BuildContext context) => new ThemeSettings(),
-          '/Todolist': (BuildContext context) => new TodoList(),
+          '/TodoList': (BuildContext context) => new TodoList(),
+          '/LanguageView': (BuildContext context) => new LanguageView(),
         },
 
 

@@ -20,7 +20,6 @@ class ThemeSettings extends StatelessWidget {
             FlatButton(
                 child: Text('Light Theme'),
                 onPressed: () => _themeChanger.setTheme(ThemeData.light())),
-
           ],
         ),
       ),

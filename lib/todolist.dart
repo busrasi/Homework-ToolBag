@@ -15,7 +15,7 @@ class TodoListState extends State<TodoList> {
     // Only add the task if the user actually entered something
     if(task.length > 0) {
       // Putting our code inside "setState" tells the app that our state has changed, and
-      // it will automati0cally re-render the list
+      // it will automatically re-render the list
       setState(() => _todoItems.add(task));
     }
   }
