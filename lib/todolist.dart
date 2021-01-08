@@ -1,10 +1,7 @@
 
 
 import 'package:flutter/material.dart';
-import "theme.dart";
-import 'theme_settings.dart';
-import 'package:provider/provider.dart';
-import 'MainPage.dart';
+
 
 class TodoList extends StatefulWidget {
   @override
