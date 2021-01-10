@@ -28,7 +28,9 @@ dependencies:
   flutter_localizations: # Add this line
     sdk: flutter
   intl: ^0.16.1
-
+  # Dev version install from git REPO
+  easy_localization_loader:
+    git: https://github.com/aissat/easy_localization_loader.git
 
 
   # Add this line

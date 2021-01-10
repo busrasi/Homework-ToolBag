@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:mp_mytoolbag/language_settings.dart';
+import 'package:mp_mytoolbag/Storage.dart';
+//import 'package:mp_mytoolbag/language_settings.dart';
 import 'todolist.dart';
 
 import 'package:provider/provider.dart';
@@ -58,7 +59,8 @@ class MaterialAppWithTheme extends StatelessWidget {
         '/MainPage': (BuildContext context) => new MainPage(),
           '/ThemeSettings': (BuildContext context) => new ThemeSettings(),
           '/TodoList': (BuildContext context) => new TodoList(),
-          '/LanguageView': (BuildContext context) => new LanguageView(),
+         // '/LanguageView': (BuildContext context) => new LanguageView(),
+          '/Storage': (BuildContext context) => new Storage(),
         },
 
 

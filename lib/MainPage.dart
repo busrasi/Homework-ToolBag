@@ -1,8 +1,9 @@
 
 import 'package:flutter/material.dart';
-import 'package:mp_mytoolbag/language_settings.dart';
+//import 'package:mp_mytoolbag/language_settings.dart';
 import 'theme_settings.dart';
 import 'todolist.dart';
+import 'package:mp_mytoolbag/Storage.dart';
 
 
 class MainPage extends StatelessWidget {
@@ -38,10 +39,19 @@ class MainPage extends StatelessWidget {
             FlatButton(
               height: 60,
               minWidth: 375,
-              child: Text('languagesettings',
+              child: Text('Language Settings',
                 textAlign: TextAlign.left,),
               onPressed: () => Navigator.push(context, MaterialPageRoute(
-                  builder: (BuildContext context) => new LanguageView()
+               //   builder: (BuildContext context) => new LanguageView()
+              )),
+            ),
+            FlatButton(
+              height: 60,
+              minWidth: 375,
+              child: Text('Storage',
+                textAlign: TextAlign.left,),
+              onPressed: () => Navigator.push(context, MaterialPageRoute(
+                  builder: (BuildContext context) => new Storage()
               )),
             ),
         ],

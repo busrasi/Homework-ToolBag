@@ -10,8 +10,8 @@
       "password": "password"
     }
   },
-  "clicked": {
-    "zero": "You clicked {} times!",
+  "day": {
+    "zero": "You clicked {} times days!",
     "one": "You clicked {} time!",
     "two": "You clicked {} times!",
     "few": "You clicked {} times!",
@@ -34,5 +34,5 @@
       "female": "Hello girl :) {}"
     }
   },
-  "reset_locale": "Reset Saved Language"
+  "tolist": "Yapilacaklar."
 }
